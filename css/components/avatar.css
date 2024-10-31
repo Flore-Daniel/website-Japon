@@ -1,0 +1,9 @@
+.avatar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px; /* Taille augmentée pour plus de visibilité */
+    height: 80px; /* Assure une forme carrée et ronde */
+    border-radius: 50%; /* Forme circulaire */
+    object-fit: cover; /* Ajuste l'image sans déformation */
+}

@@ -1,0 +1,4 @@
+.container {
+    max-width: 800px; /* Limite la largeur pour une meilleure lisibilité */
+    margin: 80px auto;
+}

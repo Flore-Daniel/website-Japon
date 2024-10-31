@@ -1,0 +1,62 @@
+.cards {
+    display: flex;
+    justify-content: center; /* Aligne les cartes au centre */
+    gap: 20px; /* Espacement entre les cartes */
+    margin: 20px 0;
+}
+
+/* Styles de la grille des cartes */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes pour les deux premières cartes */
+    gap: 20px; /* Espacement entre les cartes */
+    max-width: 1200px;
+    margin: 0 auto; /* Centre le conteneur */
+}
+
+.cards .card {
+    display: flex;
+    background-color: #FFECC8;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1);
+    padding: 20px;
+    align-items: center;
+    gap: 20px; /* Espacement entre l'image et le contenu */
+}
+
+.cards .card img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #D76C82;
+    text-decoration: none;
+}
+
+/* Pour la troisième carte uniquement */
+.cards .card:nth-child(3) {
+    grid-column: span 2; /* Étend la carte sur deux colonnes */
+}
+
+
+
+.card img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.card h3 {
+    font-size: 100px
+    margin: 0;
+    flex-grow: 1;
+}

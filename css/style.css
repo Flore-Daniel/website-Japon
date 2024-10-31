@@ -1,0 +1,62 @@
+/* Import des polices Google */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Import des fichiers de composants */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+/* Règles de style générales pour les polices et couleurs */
+body {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin: 20px;
+}
+
+/* Centrage du contenu restant */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Design responsive */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
